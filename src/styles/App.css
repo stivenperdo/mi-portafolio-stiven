@@ -1,0 +1,109 @@
+*{
+  font-family: 'Sniglet', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:root{
+  --color-white:#ffffff;
+  --color-white-body:#eeeeee;
+  --color-white-hover: #d3d3d3;
+  --color-white-hover-two: #9c9c9c;
+  --color-black: #000000;
+  --color-blue: #4778ff;
+  --color-blue-hover: #7c9fff;
+  --color-yellow: #ffc21c;
+  --color-yellow-hover: #ffd86e;
+  --color-grey: grey;
+  --color-red: #ff3737;
+  --color-red-hover: #ff6060;
+}
+
+body{
+  background-color: var(--color-white-body);
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.btn-link-yellow{
+  text-align: center;
+  display: inline-block;
+  background-color: var(--color-yellow);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--color-white);
+  padding: 8px;
+  display: block;
+  transition: background-color 0.3s;
+}
+.btn-link-yellow:hover{
+  background-color: var(--color-yellow-hover);
+}
+
+.btn-link-red{
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+  background-color: var(--color-red);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--color-white);
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+.btn-link-red:hover{
+  background-color: var(--color-red-hover);
+}
+
+.btn-white{
+  background-color: var(--color-white);
+  text-decoration: none;
+  color: var(--color-black);
+  border-radius: 8px;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-white:hover{
+  background-color: var(--color-white-hover);
+}
+
+.btn-link-blue{
+  background-color: var(--color-blue);
+  text-decoration: none;
+  color: var(--color-black);
+  border-radius: 12px;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  transition: background-color 0.3s;
+}
+
+.btn-link-blue:hover{
+  background-color: var(--color-blue-hover);
+  color: var(--color-white);
+}
+
+.btn-link-blue-white{
+  background-color: var(--color-white);
+  text-decoration: none;
+  color: var(--color-black);
+  border-radius: 4px;
+  padding: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn-link-blue-white:hover{
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}

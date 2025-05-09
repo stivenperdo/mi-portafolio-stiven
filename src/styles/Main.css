@@ -1,0 +1,61 @@
+@import url('App.css');
+
+main{
+    width: 90%;
+    padding-top: 75px;
+    height: auto;
+}
+
+/* #my-project{
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.card{
+    border: 1px solid var(--color-white-hover);
+    border-radius: 12px;
+    padding: 12px;
+    background-color: var(--color-white);
+}
+
+.card-header span{
+    color: var(--color-white-hover-two);
+}
+
+.card-body-img{
+    border-radius: 12px;
+    border: 1px solid var(--color-white-hover);
+}
+
+.card-body-img-picture img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-body-img-tools{
+    margin: 8px;
+}
+
+.card-body-img-tools span{
+    display: inline-block;
+    background-color: var(--color-blue);
+    padding: 4px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    color: var(--color-white);
+}
+.card-body-info{
+    padding: 8px;
+    text-align: center;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+} */
